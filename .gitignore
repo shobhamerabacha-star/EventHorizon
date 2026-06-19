@@ -3,7 +3,6 @@
 .codex
 
 # Server
-.env
 node_modules/
 dist/
 .DS_Store
@@ -20,3 +19,4 @@ contracts/Cargo.lock
 arms_cache/
 parent_ls.txt
 merge_log_v2.txt
+config.bat
