@@ -8,8 +8,8 @@
     "frontend"
   ],
   "scripts": {
-    "dev:backend": "npm run dev --workspace=backend",
-    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "node init && npm run dev --workspace=backend",
+    "dev:frontend": "node init && npm run dev --workspace=frontend",
     "install:all": "npm install && npm install --workspace=backend && npm install --workspace=frontend"
   },
   "keywords": [
